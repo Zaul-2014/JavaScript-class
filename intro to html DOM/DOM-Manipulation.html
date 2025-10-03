@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1 id="title">
+    mohamad zaul zameer
+  </h1>
+
+  <p>Good job!</p>
+  
+  <script>
+    let div = document.createElement('div');
+
+    div.id = 'mydiv';
+    div.innerHTML = '<p>This is a div tag</p>';
+    document.body.append(div);
+
+    let title = document.getElementById('title');
+    title.innerHTML = 'Zaul';
+
+    document.querySelector('p').innerHTML = 'I dont know';
+  </script>
+</body>
+</html>
