@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+
+        <li><a href="About.html">About</a></li>
+
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <h2>Interesting Information</h2>
+
+    <img src="images/Engish book.png" />
+
+    <br />
+
+    <button onclick="Englishbook()">Read Me !</button>
+
+    <p id="tiger-info"></p>
+
+    <br />
+
+    <img src="images/physics book.jpg" />
+
+    <br />
+
+    <button onclick="physicsbook()">Read Me !</button>
+
+    <p id="lion-info"></p>
+
+    <br />
+
+    <script>
+      function Englishbook() {
+        document.getElementById("tiger-info").innerHTML =
+          "Oxford English Grammar: the advanced guide is a grammar reference and practice book for the proficient English student. It offers comprehensive, advanced explanations of language concepts with annotated examples; examples of common grammar mistakes and how to correct them; and practice exercises that help to consolidate understanding. This practical guide is intended for reference, self-study and consolidation practice and may be used in conjunction with any English language course.";
+      }
+
+      function physicsbook() {
+        document.getElementById("lion-info").innerHTML =
+          "The Oxford Handbook of the History of Physics brings together cutting-edge writing by more than twenty leading authorities on the history of physics from the seventeenth century to the present day.";
+      }
+    </script>
+  </body>
+</html>
